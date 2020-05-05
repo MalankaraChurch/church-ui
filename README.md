@@ -1,2 +1,2 @@
-# church-ui
-Malankara Catholic Church UI Details
+# Malankara Catholic Church
+Church UI Details
