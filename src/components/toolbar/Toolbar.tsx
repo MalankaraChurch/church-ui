@@ -24,6 +24,11 @@ const Toolbar: React.FC<ToolbarProps> = (props: ToolbarProps) => {
               Events
             </NavLink>
           </li>
+          <li>
+            <NavLink to="/history" exact>
+              History
+            </NavLink>
+          </li>
         </ul>
       </nav>
     </header>

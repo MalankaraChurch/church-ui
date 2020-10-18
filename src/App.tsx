@@ -5,6 +5,7 @@ import Layout from "hoc/layout/Layout";
 import Home from "./components/home/Home";
 import Activities from "components/activities/Activities";
 import Events from "components/events/Events";
+import History from "components/History/History";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Switch>
           <Route path="/activities" component={Activities} />
           <Route path="/events" component={Events} />
+          <Route path="/history" component={History} />
           <Route path="/" exact component={Home} />
         </Switch>
       </Layout>
