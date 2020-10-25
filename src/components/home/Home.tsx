@@ -12,14 +12,14 @@ type HomeProps = {
 
 const Home: React.FC<HomeProps> = (props: HomeProps) => {
     return (
-      <>
+      <div className="home-page">
         <Hero />
         <Timing />
         <Shrine />
         <YouTube />
         <Location />
         <Footer />
-      </>
+      </div>
     );
 };
 

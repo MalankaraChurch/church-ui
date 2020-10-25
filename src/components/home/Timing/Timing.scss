@@ -1,0 +1,19 @@
+@import 'assets/scss/_variables';
+
+.timing {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-gap: 4%;
+    margin: $section-top-margin 5rem 0 5rem;
+
+    &__image {
+        // TODO: Align image vertically middle or stretch.
+        img {
+            width: 100%;
+        }
+    }
+    
+    &__content {
+        border: 1px solid $color-grey-dark;
+    }
+}
