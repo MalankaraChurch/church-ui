@@ -1,4 +1,5 @@
 import React from 'react';
+import shrineImage from "assets/images/shrine.jpg";
 import './Shrine.scss';
 
 type ShrineProps = {
@@ -6,9 +7,15 @@ type ShrineProps = {
 
 const Shrine: React.FC<ShrineProps> = (props: ShrineProps) => {
     return (
-      <>
-        Shrine Section
-      </>
+      <section className="shrine">
+        {/* TODO: Add section heading */}
+        <div className="shrine__image">
+          <img src={shrineImage} alt="Shrine" />
+        </div>
+        <div className="shrine__content">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto earum accusamus at magnam doloremque consequuntur, reiciendis sunt sit! Et incidunt, hic eveniet blanditiis unde porro iure sit. Consequuntur, quia repellat.
+        </div>
+      </section>
     );
 };
 
