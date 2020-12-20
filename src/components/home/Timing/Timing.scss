@@ -15,5 +15,16 @@
     
     &__content {
         border: 1px solid $color-grey-dark;
+        padding: 2rem;
+    }
+
+    &__details:not(:last-of-type) {
+        margin-bottom: 2rem;
+    }
+
+    &__item {
+        display: grid;
+        grid-template-columns: 40% 55%;
+        column-gap: 5%;
     }
 }
