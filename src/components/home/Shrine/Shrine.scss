@@ -1,11 +1,19 @@
 @import 'assets/scss/_variables';
+@import 'assets/scss/_mixins';
 
 .shrine {
-    display: grid;
-    grid-template-columns: 48% 48%;
-    grid-gap: 4%;
     margin: $section-top-margin 5rem 0 5rem;
     background-color: #def9ff;
+
+    &__heading {
+        @include section-heading;
+    }
+
+    &__body {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        grid-gap: 4%;
+    }
 
     &__image {
         // TODO: Align image vertically middle or stretch.
