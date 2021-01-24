@@ -3,7 +3,6 @@
 
 .shrine {
     margin: $section-top-margin 5rem 0 5rem;
-    background-color: #def9ff;
 
     &__heading {
         @include section-heading;
@@ -23,7 +22,6 @@
     }
     
     &__content {
-        display: flex;
-        align-items: center;
+        padding-top: 4rem;
     }
 }

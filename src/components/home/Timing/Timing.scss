@@ -14,16 +14,15 @@
         @include section-heading;
     }
 
+    &__subheading {
+        color: $color-secondary-dark;
+    }
+
     &__image {
         // TODO: Align image vertically middle or stretch.
         img {
             width: 100%;
         }
-    }
-    
-    &__content {
-        border: 1px solid $color-grey-dark;
-        padding: 2rem;
     }
 
     &__details:not(:last-of-type) {

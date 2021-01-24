@@ -11,12 +11,12 @@ const Timing: React.FC<TimingProps> = (props: TimingProps) => {
       <h2 className="timing__heading">Timing</h2>
       <div className="timing__body">
         <div className="timing__content">
-          <h3>Holy Mass</h3>
+          <h3 className="timing__subheading">Holy Mass</h3>
           <div className="timing__details">
             <div>All Sunday (7:00 AM - 8:30 AM)</div>
             <div>All Saturday (12:30 PM - 1:30 PM)</div>
           </div>
-          <h3>Rosary and Prayers</h3>
+          <h3 className="timing__subheading">Rosary and Prayers</h3>
           <div className="timing__details">
             <div className="timing__item">
               <div className="timing__name">Rosary</div>
