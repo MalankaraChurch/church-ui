@@ -2,7 +2,7 @@
 @import 'assets/scss/_mixins';
 
 .timing {
-    margin: $section-top-margin 5rem 0 5rem;
+    padding: $section-padding;
 
     &__body {
         display: grid;

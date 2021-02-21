@@ -2,7 +2,9 @@
 @import 'assets/scss/_mixins';
 
 .shrine {
-    margin: $section-top-margin 5rem 0 5rem;
+    padding: $section-padding;
+    background-color: $color-grey-light;
+    color: $color-grey-dark;
 
     &__heading {
         @include section-heading;

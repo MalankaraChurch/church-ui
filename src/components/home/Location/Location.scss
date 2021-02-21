@@ -1,0 +1,27 @@
+@import "assets/scss/_variables";
+@import "assets/scss/_mixins";
+
+.location {
+  padding: $section-padding;
+  background-color: $color-grey-light;
+  color: $color-grey-dark;
+
+  &__body {
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-gap: 4%;
+  }
+
+  &__heading {
+    @include section-heading;
+  }
+
+  &__map {
+    display: flex;
+    justify-content: right;
+  }
+
+  &__map-iframe {
+    border: 1px solid $color-grey-dark;
+  }
+}
