@@ -1,0 +1,48 @@
+@import "assets/scss/_variables";
+
+.navbar {
+  &__list {
+    display: flex;
+    background-color: $color-grey-dark;
+  }
+
+  &__list-item {
+    margin-right: 1rem;
+    list-style: none;
+    position: relative;
+  }
+
+  &__list-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 3px;
+    background-color: $color-primary-dark;
+    transform: scaleY(0);
+    transition: transform 0.2s, width 0.4s cubic-bezier(1, 0, 0, 1) 0.2s,
+      background-color 0.1s;
+  }
+
+  &__list-item:hover::before,
+  &__list-item--active::before {
+    transform: scaleY(1);
+    width: 100%;
+  }
+
+  &__list-item:active::before {
+    background-color: $color-primary-medium;
+  }
+
+  &__link:link,
+  &__link:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 1.5rem;
+    color: $color-grey-light;
+    position: relative;
+    z-index: 10;
+  }
+}
