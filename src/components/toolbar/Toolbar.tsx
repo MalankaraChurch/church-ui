@@ -7,6 +7,7 @@ enum NavItem {
   ACTIVITIES,
   EVENTS,
   HISTORY,
+  CONTACT_US,
 }
 
 type ToolbarProps = {};
@@ -75,6 +76,20 @@ const Toolbar: React.FC<ToolbarProps> = (props: ToolbarProps) => {
             onClick={() => handleNavLinkClick(NavItem.HISTORY)}
           >
             History
+          </NavLink>
+        </li>
+        <li
+          className={`navbar__list-item ${
+            activeItem === NavItem.CONTACT_US ? "navbar__list-item--active" : ""
+          }`}
+        >
+          <NavLink
+            to="/contact-us"
+            exact
+            className="navbar__link"
+            onClick={() => handleNavLinkClick(NavItem.CONTACT_US)}
+          >
+            Contact Us
           </NavLink>
         </li>
       </ul>

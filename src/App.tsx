@@ -15,6 +15,7 @@ function App() {
           <Route path="/activities" component={Activities} />
           <Route path="/events" component={Events} />
           <Route path="/history" component={History} />
+          <Route path="/contact-us" component={History} />
           <Route path="/" exact component={Home} />
         </Switch>
       </Layout>
