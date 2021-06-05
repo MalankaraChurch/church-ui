@@ -1,6 +1,6 @@
 import React from "react";
-import "./Layout.scss";
-import Toolbar from "components/Toolbar/Toolbar";
+import "./layout.scss";
+import Toolbar from "components/toolbar/toolbar";
 
 type LayoutProps = {
   children: any;
