@@ -5,7 +5,7 @@ import Shrine from './Shrine/Shrine';
 import YouTube from './YouTube/YouTube';
 import Location from './Location/Location';
 import Footer from './Footer/Footer';
-import './Home.scss';
+import './home.scss';
 
 type HomeProps = {
 };

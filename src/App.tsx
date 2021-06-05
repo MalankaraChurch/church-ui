@@ -1,11 +1,11 @@
 import React from "react";
 import { Route, Switch, BrowserRouter } from "react-router-dom";
 import "./App.css";
-import Layout from "hoc/layout/Layout";
-import Home from "./components/Home/Home";
-import Activities from "components/Activities/Activities";
-import Events from "components/Events/Events";
-import History from "components/History/History";
+import Layout from "hoc/layout/layout";
+import Home from "./components/home/home";
+import Activities from "components/activities/activities";
+import Events from "components/events/events";
+import History from "components/history/history";
 
 function App() {
   return (

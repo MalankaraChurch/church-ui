@@ -1,5 +1,5 @@
 import React from 'react';
-import './Activities.scss';
+import './activities.scss';
 
 type ActivitiesProps = {
 };

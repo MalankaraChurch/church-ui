@@ -1,5 +1,5 @@
 import React from 'react';
-import './Events.scss';
+import './events.scss';
 
 type EventsProps = {
 };
