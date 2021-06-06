@@ -1,0 +1,37 @@
+@import 'assets/scss/_variables';
+@import 'assets/scss/_mixins';
+
+.timing {
+    padding: $section-padding;
+
+    &__body {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        grid-gap: 4%;
+    }
+
+    &__heading {
+        @include section-heading;
+    }
+
+    &__subheading {
+        color: $color-secondary-dark;
+    }
+
+    &__image {
+        // TODO: Align image vertically middle or stretch.
+        img {
+            width: 100%;
+        }
+    }
+
+    &__details:not(:last-of-type) {
+        margin-bottom: 2rem;
+    }
+
+    &__item {
+        display: grid;
+        grid-template-columns: 40% 55%;
+        column-gap: 5%;
+    }
+}

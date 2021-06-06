@@ -1,0 +1,22 @@
+@import 'assets/scss/_variables';
+@import 'assets/scss/_mixins';
+
+.you-tube {
+    padding: $section-padding;
+    
+    &__heading {
+        @include section-heading;
+    }
+
+    &__body {
+        display: grid;
+        grid-template-columns: 48% 48%;
+        column-gap: 4%;
+        row-gap: 6%;
+        overflow: hidden;
+    }
+
+    &__item {
+        overflow: hidden;
+    }
+}

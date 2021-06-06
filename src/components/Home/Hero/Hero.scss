@@ -1,0 +1,21 @@
+@import 'assets/scss/_variables';
+
+.hero {
+    &__name {
+        font-weight: 300;
+        margin: 4rem 0;
+        font-size: 240%;
+        word-spacing: 4px;
+        letter-spacing: 1px;
+        text-align: center;
+        text-transform: uppercase;
+        color: $color-primary-dark;
+    }
+
+    &__image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
