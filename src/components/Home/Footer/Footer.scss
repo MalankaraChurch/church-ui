@@ -1,0 +1,22 @@
+@import "assets/scss/_variables";
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $section-padding;
+  background-color: $color-grey-dark;
+
+  &__copyright {
+    color: $color-grey-medium-2;
+  }
+
+  &__social {
+    width: 3.2rem;
+    height: 3.2rem;
+
+    svg {
+        fill: $color-grey-medium-2;
+    }
+  }
+}
