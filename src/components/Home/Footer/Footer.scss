@@ -12,11 +12,19 @@
   }
 
   &__social {
-    width: 3.2rem;
-    height: 3.2rem;
+    width: 2.4rem;
+    height: 2.4rem;
 
     svg {
-        fill: $color-grey-medium-2;
+      fill: $color-grey-medium-2;
+      width: 2.4rem;
+      height: 2.4rem;
+    }
+
+    &:hover {
+      svg {
+        fill: $color-facebook;
+      }
     }
   }
 }
