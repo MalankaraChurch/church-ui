@@ -10,7 +10,7 @@ const Layout: React.FC<LayoutProps> = (props: LayoutProps) => {
   return (
     <>
       <Toolbar />
-      <main>{props.children}</main>
+      <main className="layout__content">{props.children}</main>
     </>
   );
 };

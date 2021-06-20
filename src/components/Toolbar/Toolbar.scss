@@ -1,6 +1,10 @@
 @import "assets/scss/_variables";
 
 .navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
   &__list {
     display: flex;
     background-color: $color-grey-dark;
