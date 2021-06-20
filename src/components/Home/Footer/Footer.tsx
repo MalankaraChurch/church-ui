@@ -13,7 +13,11 @@ const Footer: React.FC<FooterProps> = (props: FooterProps) => {
         Church. All rights reserved.
       </div>
       <div className="footer__social">
-        <a href="https://www.facebook.com/mscchurch.azhvarcoil">
+        <a
+          href="https://www.facebook.com/mscchurch.azhvarcoil"
+          target="_blank"
+          rel="noreferrer"
+        >
           <IcFacebook />
         </a>
       </div>
