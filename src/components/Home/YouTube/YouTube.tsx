@@ -11,16 +11,16 @@ const YouTube: React.FC<YouTubeProps> = (props: YouTubeProps) => {
       {/* TODO: Prevent video from trimmed. */}
       <div className="you-tube__body">
         <div className="you-tube__item">
-          <ReactPlayer url="https://www.youtube.com/watch?v=CBX4BKUtK1c" />
+          <ReactPlayer width="100%"  controls={true} url="https://www.youtube.com/watch?v=CBX4BKUtK1c" />
         </div>
         <div className="you-tube__item">
-          <ReactPlayer url="https://www.youtube.com/watch?v=PxdgfRnRduE" />
+          <ReactPlayer width="100%" controls={true} url="https://www.youtube.com/watch?v=PxdgfRnRduE" />
         </div>
         <div className="you-tube__item">
-          <ReactPlayer url="https://www.youtube.com/watch?v=l45AStM1q3w" />
+          <ReactPlayer width="100%" controls={true} url="https://www.youtube.com/watch?v=l45AStM1q3w" />
         </div>
         <div className="you-tube__item">
-          <ReactPlayer url="https://www.youtube.com/watch?v=GPo8DXjx9R0" />
+          <ReactPlayer width="100%" controls={true} url="https://www.youtube.com/watch?v=GPo8DXjx9R0" />
         </div>
       </div>
     </section>
