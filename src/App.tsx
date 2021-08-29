@@ -6,6 +6,7 @@ import Home from "./components/Home/Home";
 import Activities from "components/Activities/Activities";
 import Events from "components/Events/Events";
 import History from "components/History/History";
+import ContactUs from "components/ContactUs/ContactUs";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
           <Route path="/activities" component={Activities} />
           <Route path="/events" component={Events} />
           <Route path="/history" component={History} />
-          <Route path="/contact-us" component={History} />
+          <Route path="/contact-us" component={ContactUs} />
           <Route path="/" exact component={Home} />
         </Switch>
       </Layout>
