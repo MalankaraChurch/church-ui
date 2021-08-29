@@ -3,7 +3,6 @@ import Hero from './Hero/Hero';
 import Timing from './Timing/Timing';
 import Shrine from './Shrine/Shrine';
 import YouTube from './YouTube/YouTube';
-import Location from './Location/Location';
 import Footer from './Footer/Footer';
 import './Home.scss';
 
@@ -17,7 +16,6 @@ const Home: React.FC<HomeProps> = (props: HomeProps) => {
         <Timing />
         <Shrine />
         <YouTube />
-        <Location />
         <Footer />
       </div>
     );

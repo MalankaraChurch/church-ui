@@ -8,7 +8,6 @@ const YouTube: React.FC<YouTubeProps> = (props: YouTubeProps) => {
   return (
     <section className="you-tube">
       <h2 className="you-tube__heading">Videos</h2>
-      {/* TODO: Prevent video from trimmed. */}
       <div className="you-tube__body">
         <div className="you-tube__item">
           <ReactPlayer width="100%"  controls={true} url="https://www.youtube.com/watch?v=CBX4BKUtK1c" />

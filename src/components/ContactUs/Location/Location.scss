@@ -2,8 +2,7 @@
 @import "assets/scss/_mixins";
 
 .location {
-  padding: $section-padding;
-  background-color: $color-grey-light;
+  padding: 0 $section-padding;
   color: $color-grey-dark;
 
   &__body {
@@ -16,6 +15,12 @@
     @include section-heading;
   }
 
+  &__content {
+    p {
+      margin-bottom: 2rem;
+    }
+  }
+
   &__map {
     display: flex;
     justify-content: right;
@@ -23,5 +28,10 @@
 
   &__map-iframe {
     border: 1px solid $color-grey-dark;
+  }
+
+  &__label {
+    font-size: 1.4rem;
+    color: $color-secondary-dark;
   }
 }

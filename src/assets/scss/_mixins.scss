@@ -1,5 +1,16 @@
 @import 'assets/scss/_variables';
 
+@mixin page-heading {
+    font-weight: 300;
+    margin: 4rem 0;
+    font-size: 3.8rem;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $color-primary-dark;
+}
+
 @mixin section-heading {
     font-size: 3.5rem;
     text-transform: uppercase;

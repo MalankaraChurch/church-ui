@@ -7,11 +7,20 @@ const Location: React.FC<LocationProps> = (props: LocationProps) => {
   return (
     <section className="location">
       {/* TODO: Different color for section */}
-      <h2 className="location__heading">Location</h2>
       <div className="location__body">
-        <div className="location__address">
-          Annai Nagar, North Alwarcoil, Kannattu Vilai Post, Kanyakumari District, Tamil
-          Nadu, India. PIN: 629802
+        <div className="location__content">
+          <p>
+            <span className="location__label">Address:</span>
+            <br />
+            Annai Nagar, North Alwarcoil, Kannattu Vilai Post, Kanyakumari
+            District, Tamil Nadu, India. PIN: 629802
+          </p>
+          <p>
+            <span className="location__label">Phone: </span>+91 9942809220
+            <br />
+            <span className="location__label">Email: </span>
+            malankarachurch.alwarcoil@gmail.com
+          </p>
         </div>
         <div className="location__map">
           <iframe
